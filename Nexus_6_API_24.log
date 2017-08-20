@@ -1,0 +1,465 @@
+emulator: WARNING: Ignoring invalid SDCard path: /Users/tfisher/.android/avd/Nexus_6_Android_7.0_API_24.avd/sdcard.img
+Hax is enabled
+Hax ram_size 0x60000000
+HAX is working and emulator runs in fast virt mode.
+emulator: Listening for console connections on port: 5554
+emulator: Serial number of this emulator (for ADB): emulator-5554
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.10.0+ (jinqian@jinqian.mtv.corp.google.com) (gcc version 4.9 20150123 (prerelease) (GCC) ) #371 SMP PREEMPT Thu Jan 21 12:03:33 PST 2016
+[    0.000000] Command line: qemu=1 androidboot.hardware=ranchu clocksource=pit androidboot.console=ttyS0 android.qemud=1 console=0 console=0 android.checkjni=1 android.bootanim=0 qemu.gles=1 ndns=3 ndns=3
+[    0.000000] Disabled fast string operations
+[    0.000000] e820: BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000005ffdffff] usable
+[    0.000000] BIOS-e820: [mem 0x000000005ffe0000-0x000000005fffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+[    0.000000] Notice: NX (Execute Disable) protection missing in CPU!
+[    0.000000] SMBIOS 2.8 present.
+[    0.000000] No AGP bridge found
+[    0.000000] e820: last_pfn = 0x5ffe0 max_arch_pfn = 0x400000000
+[    0.000000] PAT not supported by CPU.
+[    0.000000] CPU MTRRs all blank - virtualized system.
+[    0.000000] found SMP MP-table at [mem 0x000f0e80-0x000f0e8f] mapped at [ffff8800000f0e80]
+[    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+[    0.000000] init_memory_mapping: [mem 0x5fc00000-0x5fdfffff]
+[    0.000000] init_memory_mapping: [mem 0x5c000000-0x5fbfffff]
+[    0.000000] init_memory_mapping: [mem 0x00100000-0x5bffffff]
+[    0.000000] init_memory_mapping: [mem 0x5fe00000-0x5ffdffff]
+[    0.000000] cma: CMA: reserved 16 MiB at 5ec00000
+[    0.000000] RAMDISK: [mem 0x5fe3f000-0x5ffdffff]
+[    0.000000] ACPI: RSDP 00000000000f0c80 00014 (v00 BOCHS )
+[    0.000000] ACPI: RSDT 000000005ffe1ab3 00034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+[    0.000000] ACPI: FACP 000000005ffe1033 00074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+[    0.000000] ACPI: DSDT 000000005ffe0040 00FF3 (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+[    0.000000] ACPI: FACS 000000005ffe0000 00040
+[    0.000000] ACPI: SSDT 000000005ffe10a7 00954 (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+[    0.000000] ACPI: APIC 000000005ffe19fb 00080 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+[    0.000000] ACPI: HPET 000000005ffe1a7b 00038 (v01 BOCHS  BXPCHPET 00000001 BXPC 00000001)
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+[    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+[    0.000000]   Normal   empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x00001000-0x0009efff]
+[    0.000000]   node   0: [mem 0x00100000-0x5ffdffff]
+[    0.000000] ACPI: PM-Timer IO Port: 0x608
+[    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+[    0.000000] ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+[    0.000000] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+[    0.000000] Using ACPI (MADT) for SMP configuration information
+[    0.000000] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+[    0.000000] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+[    0.000000] e820: [mem 0x60000000-0xfffbffff] available for PCI devices
+[    0.000000] setup_percpu: NR_CPUS:4096 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+[    0.000000] PERCPU: Embedded 25 pages/cpu @ffff88005fc00000 s79488 r0 d22912 u1048576
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 386920
+[    0.000000] Kernel command line: qemu=1 androidboot.hardware=ranchu clocksource=pit androidboot.console=ttyS0 android.qemud=1 console=0 console=0 android.checkjni=1 android.bootanim=0 qemu.gles=1 ndns=3 ndns=3
+[    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+[    0.000000] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.000000] Checking aperture...
+[    0.000000] No AGP bridge found
+[    0.000000] Memory: 1513276k/1572736k available (5877k kernel code, 392k absent, 59068k reserved, 5269k data, 976k init)
+[    0.000000] SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] 	CONFIG_RCU_FANOUT set to non-default value of 32
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=4096 to nr_cpu_ids=2.
+[    0.000000] NR_IRQS:262400 nr_irqs:512 16
+[    0.000000] Console: colour dummy device 80x25
+[    0.000000] console [ttyS0] enabled
+[    0.000000] tsc: Fast TSC calibration failed
+[    0.000000] tsc: PIT calibration matches HPET. 2 loops
+[    0.000000] tsc: Detected 2599.652 MHz processor
+[    0.030002] Calibrating delay loop (skipped), value calculated using timer frequency.. 5199.30 BogoMIPS (lpj=25996520)
+[    0.033179] pid_max: default: 32768 minimum: 301
+[    0.040038] Security Framework initialized
+[    0.041084] SELinux:  Initializing.
+[    0.042134] Mount-cache hash table entries: 256
+[    0.043682] Initializing cgroup subsys debug
+[    0.044765] Initializing cgroup subsys freezer
+[    0.046356] Disabled fast string operations
+[    0.047456] CPU0: Hyper-Threading is disabled
+[    0.048556] Last level iTLB entries: 4KB 32, 2MB 0, 4MB 2
+[    0.048556] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 8
+[    0.048556] tlb_flushall_shift: 6
+[    0.050456] Freeing SMP alternatives: 24k freed
+[    0.051678] ACPI: Core revision 20130328
+[    0.053562] ACPI: All ACPI Tables successfully acquired
+[    0.062765] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    0.163064] smpboot: CPU0: Intel Virtual CPU (fam: 06, model: 1f, stepping: 01)
+[    0.170000] Performance Events: unsupported p6 CPU model 31 no PMU driver, software events only.
+[    0.220366] smpboot: Booting Node   0, Processors  #1 OK
+[    0.030000] Disabled fast string operations
+[    0.240000] TSC synchronization [CPU#0 -> CPU#1]:
+[    0.240000] Measured 6133320197 cycles TSC warp between CPUs, turning off TSC clock.
+[    0.240000] tsc: Marking TSC unstable due to check_tsc_sync_source failed
+[    0.240090] Brought up 2 CPUs
+[    0.240816] smpboot: Total of 2 processors activated (10398.60 BogoMIPS)
+[    0.244791] NET: Registered protocol family 16
+[    0.250156] ACPI: bus type PCI registered
+[    0.251323] PCI: Using configuration type 1 for base access
+[    0.330135] bio: create slab <bio-0> at 0
+[    0.331248] ACPI: Added _OSI(Module Device)
+[    0.331248] ACPI: Added _OSI(Processor Device)
+[    0.332141] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.333226] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.341812] ACPI: Interpreter enabled
+[    0.342857] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20130328/hwxface-568)
+[    0.346001] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20130328/hwxface-568)
+[    0.348829] ACPI: (supports S0 S3 S5)
+[    0.350003] ACPI: Using IOAPIC for interrupt routing
+[    0.351450] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.370172] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[    0.371697] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+[    0.374780] PCI host bridge to bus 0000:00
+[    0.374780] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    0.374780] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+[    0.380042] pci_bus 0000:00: root bus resource [io  0x0d00-0xadff]
+[    0.381568] pci_bus 0000:00: root bus resource [io  0xae0f-0xaeff]
+[    0.382986] pci_bus 0000:00: root bus resource [io  0xaf20-0xafdf]
+[    0.384438] pci_bus 0000:00: root bus resource [io  0xafe4-0xffff]
+[    0.385856] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+[    0.387516] pci_bus 0000:00: root bus resource [mem 0x60000000-0xfebfffff]
+[    0.400232] pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+[    0.402015] pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+[    0.463779] acpi PNP0A03:00: Unable to request _OSC control (_OSC support mask: 0x08)
+[    0.463779] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+[    0.470219] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+[    0.471890] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+[    0.473467] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+[    0.474992] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+[    0.476480] ACPI: Enabled 16 GPEs in block 00 to 0F
+[    0.476480] vgaarb: loaded
+[    0.480045] SCSI subsystem initialized
+[    0.480948] ACPI: bus type ATA registered
+[    0.482185] ACPI: bus type USB registered
+[    0.482185] usbcore: registered new interface driver usbfs
+[    0.482185] usbcore: registered new interface driver hub
+[    0.482185] usbcore: registered new device driver usb
+[    0.490116] pps_core: LinuxPPS API ver. 1 registered
+[    0.491161] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.493411] PTP clock support registered
+[    0.493411] Advanced Linux Sound Architecture Driver Initialized.
+[    0.493411] PCI: Using ACPI for IRQ routing
+[    0.500117] NetLabel: Initializing
+[    0.501258] NetLabel:  domain hash size = 128
+[    0.502483] NetLabel:  protocols = UNLABELED CIPSOv4
+[    0.504136] NetLabel:  unlabeled traffic allowed by default
+[    0.506084] Switching to clocksource hpet
+[    0.507609] cfg80211: Calling CRDA to update world regulatory domain
+[    0.509616] pnp: PnP ACPI init
+[    0.509616] ACPI: bus type PNP registered
+[    0.511204] pnp: PnP ACPI: found 8 devices
+[    0.512504] ACPI: bus type PNP unregistered
+[    0.550257] NET: Registered protocol family 2
+[    0.552137] TCP established hash table entries: 16384 (order: 6, 262144 bytes)
+[    0.554342] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+[    0.556243] TCP: Hash tables configured (established 16384 bind 16384)
+[    0.558145] TCP: reno registered
+[    0.559149] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+[    0.562445] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+[    0.563992] NET: Registered protocol family 1
+[    0.565113] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+[    0.566775] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+[    0.568468] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+[    0.570444] Trying to unpack rootfs image as initramfs...
+[    0.597876] Freeing initrd memory: 1668k freed
+[    0.605306] audit: initializing netlink socket (disabled)
+[    0.606822] type=2000 audit(1503222765.600:1): initialized
+[    0.611478] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[    0.640302] VFS: Disk quotas dquot_6.5.2
+[    0.643137] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.652478] fuse init (API version 7.22)
+[    0.655010] msgmni has been set to 2990
+[    0.665960] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+[    0.668014] io scheduler noop registered
+[    0.669255] io scheduler deadline registered
+[    0.672126] io scheduler cfq registered (default)
+[    0.674103] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+[    0.706344] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[    0.708623] ACPI: Power Button [PWRF]
+[    0.739126] ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 10
+[    0.768579] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 11
+[    0.795237] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+[    0.820975] ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+[    0.849835] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+[    0.880195] 00:05: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+[    0.886125] Non-volatile memory driver v1.3
+[    0.887237] Linux agpgart interface v0.103
+[    0.889642] [drm] Initialized drm 1.1.0 20060810
+[    0.902610] brd: module loaded
+[    0.909460] loop: module loaded
+[    0.911749]  vda: unknown partition table
+[    0.914323]  vdb: unknown partition table
+[    0.916974]  vdc: unknown partition table
+[    0.919030]  vdd:
+[    0.920540] Loading iSCSI transport class v2.0-870.
+[    0.930757] scsi0 : ata_piix
+[    0.932338] scsi1 : ata_piix
+[    0.933564] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc120 irq 14
+[    0.935291] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc128 irq 15
+[    0.941201] tun: Universal TUN/TAP device driver, 1.6
+[    0.942652] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    0.948487] e100: Intel(R) PRO/100 Network Driver, 3.5.24-k2-NAPI
+[    0.950201] e100: Copyright(c) 1999-2006 Intel Corporation
+[    0.952407] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+[    0.954028] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[    0.955798] e1000e: Intel(R) PRO/1000 Network Driver - 2.3.2-k
+[    0.957146] e1000e: Copyright(c) 1999 - 2013 Intel Corporation.
+[    0.959090] sky2: driver version 1.30
+[    0.962179] PPP generic driver version 2.4.2
+[    0.964112] PPP BSD Compression module registered
+[    0.965208] PPP Deflate Compression module registered
+[    0.966425] PPP MPPE Compression module registered
+[    0.967632] NET: Registered protocol family 24
+[    0.970631] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.972348] ehci-pci: EHCI PCI platform driver
+[    0.974035] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.976389] uhci_hcd: USB Universal Host Controller Interface driver
+[    0.978770] usbcore: registered new interface driver usblp
+[    0.980605] usbcore: registered new interface driver usb-storage
+[    0.983048] mousedev: PS/2 mouse device common for all mice
+[    0.987173] input: qwerty2 as /devices/platform/GFSH0002:00/input/input1
+[    0.989727] rtc_cmos 00:00: RTC can wake from S4
+[    0.992192] rtc_cmos 00:00: rtc core: registered rtc_cmos as rtc0
+[    0.993967] rtc_cmos 00:00: alarms up to one day, 114 bytes nvram, hpet irqs
+[    0.999429] device-mapper: uevent: version 1.0.3
+[    1.001099] device-mapper: ioctl: 4.24.0-ioctl (2013-01-15) initialised: dm-devel@redhat.com
+[    1.003835] cpuidle: using governor ladder
+[    1.004795] cpuidle: using governor menu
+[    1.006825] hidraw: raw HID events driver (C) Jiri Kosina
+[    1.014207] usbcore: registered new interface driver usbhid
+[    1.015863] usbhid: USB HID core driver
+[    1.017031] ashmem: initialized
+[    1.021282] u32 classifier
+[    1.021939]     Actions configured
+[    1.022859] Netfilter messages via NETLINK v0.30.
+[    1.024046] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+[    1.026048] ctnetlink v0.93: registering with nfnetlink.
+[    1.027394] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+[    1.029168] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+[    1.031717] xt_time: kernel timezone is -0000
+[    1.032850] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    1.034113] arp_tables: (C) 2002 David S. Miller
+[    1.035191] TCP: cubic registered
+[    1.035969] Initializing XFRM netlink socket
+[    1.038716] NET: Registered protocol family 10
+[    1.040023] mip6: Mobile IPv6
+[    1.040749] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[    1.042477] sit: IPv6 over IPv4 tunneling driver
+[    1.044482] NET: Registered protocol family 17
+[    1.045529] NET: Registered protocol family 15
+[    1.047617] registered taskstats version 1
+[    1.049283] console [netcon0] enabled
+[    1.050145] netconsole: network logging started
+[    1.051849] init: failed to probe driver -19
+[    1.053414] ALSA device list:
+[    1.054321]   No soundcards found.
+[    1.093468] ata2.00: ATAPI: QEMU DVD-ROM, 2.2.0, max UDMA/100
+[    1.096384] ata2.00: configured for MWDMA2
+[    1.098740] scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.2. PQ: 0 ANSI: 5
+[    1.103593] sr0: scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+[    1.105015] cdrom: Uniform CD-ROM driver Revision: 3.20
+[    1.108018] sr 1:0:0:0: Attached scsi generic sg0 type 5
+[    1.109626] Freeing unused kernel memory: 976k freed
+[    1.111004] Write protecting the kernel read-only data: 10240k
+[    1.113498] Freeing unused kernel memory: 256k freed
+[    1.116942] Freeing unused kernel memory: 1916k freed
+[    1.119294] init: init first stage started!
+[    1.183318] type=1403 audit(1503222766.180:2): policy loaded auid=4294967295 ses=4294967295
+[    1.186627] type=1404 audit(1503222766.180:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+[    1.232879] init: (Initializing SELinux enforcing took 0.11s.)
+[    1.236929] init: init second stage started!
+[    1.238808] init: property_set("ro.kernel.console", "0") failed
+[    1.240771] init: property_set("ro.kernel.ndns", "3") failed
+[    1.243233] init: Running restorecon...
+[    1.246700] init: waitpid failed: No child processes
+[    1.248119] init: (Loading properties from /default.prop took 0.00s.)
+[    1.250553] init: (Parsing /init.environ.rc took 0.00s.)
+[    1.252786] init: (Parsing /init.usb.rc took 0.00s.)
+[    1.254034] init: (Parsing /init.ranchu.rc took 0.00s.)
+[    1.255604] init: (Parsing /init.usb.configfs.rc took 0.00s.)
+[    1.257045] init: (Parsing /init.zygote64_32.rc took 0.00s.)
+[    1.258385] init: (Parsing /init.rc took 0.01s.)
+[    1.352161] init: Starting service 'ueventd'...
+[    1.353784] init: Waiting for /dev/.coldboot_done...
+[    1.354358] ueventd: ueventd started!
+[    1.484179] ueventd: Coldboot took 0.13s.
+Your emulator is out of date, please update by launching Android Studio:
+ - Start Android Studio
+ - Select menu "Tools > Android > SDK Manager"
+ - Click "SDK Tools" tab
+ - Check "Android SDK Tools" checkbox
+ - Click "OK"
+
+[    1.491477] init: Waiting for /dev/.coldboot_done took 0.14s.
+[    1.493149] init: /dev/hw_random not found
+[    1.494786] type=1400 audit(1503222766.490:4): avc:  denied  { write } for  pid=1 comm="init" name="ttyS0" dev="tmpfs" ino=3108 scontext=u:r:init:s0 tcontext=u:object_r:serial_device:s0 tclass=chr_file permissive=0
+[    1.502943] init: write_file: Unable to open '/proc/sys/kernel/hung_task_timeout_secs': No such file or directory
+[    1.505827] init: write_file: Unable to open '/proc/cpu/alignment': No such file or directory
+[    1.508044] init: write_file: Unable to open '/proc/sys/kernel/sched_compat_yield': No such file or directory
+[    1.511570] init: write_file: Unable to write to '/dev/cpuctl/cpu.shares': Invalid argument
+[    1.514916] init: write_file: Unable to open '/proc/sys/abi/swp': No such file or directory
+[    1.518026] init: /dev/hw_random not found
+[    1.528290] EXT4-fs (vda): mounted filesystem with ordered data mode. Opts: (null)
+[    1.530382] fs_mgr: __mount(source=/dev/block/vda,target=/system,type=ext4)=0
+[    1.533036] EXT4-fs (vdb): Ignoring removed nomblk_io_submit option
+[    1.545759] EXT4-fs (vdb): recovery complete
+[    1.547397] EXT4-fs (vdb): mounted filesystem with ordered data mode. Opts: nomblk_io_submit,errors=panic
+[    1.549828] fs_mgr: __mount(source=/dev/block/vdb,target=/cache,type=ext4)=0
+[    1.552590] EXT4-fs (vdc): Ignoring removed nomblk_io_submit option
+[    1.577163] EXT4-fs (vdc): 2 orphan inodes deleted
+[    1.578540] EXT4-fs (vdc): recovery complete
+[    1.585012] EXT4-fs (vdc): mounted filesystem with ordered data mode. Opts: errors=remount-ro,nomblk_io_submit
+[    1.587528] fs_mgr: check_fs(): mount(/dev/block/vdc,/data,ext4)=0: Success
+[    1.591600] fs_mgr: check_fs(): unmount(/data) succeeded
+[    1.594698] fs_mgr: Running /system/bin/e2fsck on /dev/block/vdc
+[    1.752817] e2fsck: e2fsck 1.42.9 (28-Dec-2013)
+[    1.752817] 
+[    1.754297] e2fsck: Pass 1: Checking inodes, blocks, and sizes
+[    1.754297] 
+[    1.756008] e2fsck: Pass 2: Checking directory structure
+[    1.756008] 
+[    1.757595] e2fsck: Pass 3: Checking directory connectivity
+[    1.757595] 
+[    1.759240] e2fsck: Pass 4: Checking reference counts
+[    1.759240] 
+[    1.761397] e2fsck: Pass 5: Checking group summary information
+[    1.761397] 
+[    1.763381] e2fsck: data: 967/49280 files (6.6% non-contiguous), 28767/204800 blocks
+[    1.763381] 
+[    1.766317] EXT4-fs (vdc): Ignoring removed nomblk_io_submit option
+[    1.770721] EXT4-fs (vdc): mounted filesystem with ordered data mode. Opts: nomblk_io_submit,errors=panic
+[    1.773000] fs_mgr: __mount(source=/dev/block/vdc,target=/data,type=ext4)=0
+[    1.776811] init: (Parsing /system/etc/init/atrace.rc took 0.00s.)
+[    1.779072] init: (Parsing /system/etc/init/audioserver.rc took 0.00s.)
+[    1.781577] init: (Parsing /system/etc/init/bootanim.rc took 0.00s.)
+[    1.784255] init: (Parsing /system/etc/init/bootstat.rc took 0.00s.)
+[    1.786966] init: (Parsing /system/etc/init/cameraserver.rc took 0.00s.)
+[    1.789268] init: (Parsing /system/etc/init/debuggerd.rc took 0.00s.)
+[    1.791939] init: (Parsing /system/etc/init/debuggerd64.rc took 0.00s.)
+[    1.794375] init: (Parsing /system/etc/init/drmserver.rc took 0.00s.)
+[    1.796712] init: (Parsing /system/etc/init/dumpstate.rc took 0.00s.)
+[    1.799268] init: (Parsing /system/etc/init/gatekeeperd.rc took 0.00s.)
+[    1.802222] init: (Parsing /system/etc/init/init-debug.rc took 0.00s.)
+[    1.804620] init: (Parsing /system/etc/init/installd.rc took 0.00s.)
+[    1.806786] init: (Parsing /system/etc/init/keystore.rc took 0.00s.)
+[    1.808894] init: (Parsing /system/etc/init/lmkd.rc took 0.00s.)
+[    1.811213] init: (Parsing /system/etc/init/logcatd.rc took 0.00s.)
+[    1.813484] init: (Parsing /system/etc/init/logd.rc took 0.00s.)
+[    1.815616] init: (Parsing /system/etc/init/mdnsd.rc took 0.00s.)
+[    1.818256] init: (Parsing /system/etc/init/mediacodec.rc took 0.00s.)
+[    1.820690] init: (Parsing /system/etc/init/mediadrmserver.rc took 0.00s.)
+[    1.823093] init: (Parsing /system/etc/init/mediaextractor.rc took 0.00s.)
+[    1.826852] init: (Parsing /system/etc/init/mediaserver.rc took 0.00s.)
+[    1.829332] init: (Parsing /system/etc/init/mtpd.rc took 0.00s.)
+[    1.832190] init: (Parsing /system/etc/init/netd.rc took 0.00s.)
+[    1.834787] init: (Parsing /system/etc/init/perfprofd.rc took 0.00s.)
+[    1.837137] init: (Parsing /system/etc/init/racoon.rc took 0.00s.)
+[    1.839486] init: (Parsing /system/etc/init/rild.rc took 0.00s.)
+[    1.841891] init: (Parsing /system/etc/init/servicemanager.rc took 0.00s.)
+[    1.844451] init: (Parsing /system/etc/init/surfaceflinger.rc took 0.00s.)
+[    1.846761] init: (Parsing /system/etc/init/uncrypt.rc took 0.00s.)
+[    1.848829] init: (Parsing /system/etc/init/vdc.rc took 0.00s.)
+[    1.851155] init: (Parsing /system/etc/init/vold.rc took 0.00s.)
+[    1.856660] init: Starting service 'logd'...
+[    1.878342] logd.auditd: start
+[    1.879190] logd.klogd: 1879183000
+[    1.902883] init: (Loading properties from /system/build.prop took 0.00s.)
+[    1.904778] init: (Loading properties from /vendor/build.prop took 0.00s.)
+[    1.906416] init: (Loading properties from /factory/factory.prop took 0.00s.)
+[    1.908115] init: /recovery not specified in fstab
+[    1.909442] init: Starting service 'debuggerd'...
+[    1.910795] init: Starting service 'debuggerd64'...
+[    1.913384] init: Starting service 'vold'...
+[    1.916270] init: Not bootcharting.
+[    2.331177] init: Starting service 'exec 1 (/system/bin/tzdatacheck)'...
+[    2.336663] init: Service 'exec 1 (/system/bin/tzdatacheck)' (pid 1225) exited with status 0
+[    2.339137] init: (Loading properties from /data/local.prop took 0.00s.)
+[    2.372815] init: Starting service 'logd-reinit'...
+[    2.376261] init: Starting service 'healthd'...
+[    2.377915] logd.daemon: reinit
+[    2.377987] init: Starting service 'qemu-props'...
+[    2.378212] init: Starting service 'lmkd'...
+[    2.378421] init: Starting service 'servicemanager'...
+[    2.378796] init: Starting service 'surfaceflinger'...
+[    2.379077] init: property_set("ro.build.product", "generic") failed
+[    2.379095] init: property_set("ro.product.device", "generic") failed
+[    2.379390] init: do_stop: Service dund not found
+[    2.379406] init: do_stop: Service akmd not found
+[    2.379487] init: Starting service 'goldfish-logcat'...
+[    2.379680] init: Starting service 'goldfish-setup'...
+[    2.381893] init: service 'console' requires console
+[    2.381912] init: Starting service 'adbd'...
+[    2.382232] init: cannot find '/system/bin/update_verifier' (No such file or directory), disabling 'exec 2 (/system/bin/update_verifier)'
+[    2.382265] init: cannot find '/system/bin/install-recovery.sh' (No such file or directory), disabling 'flash_recovery'
+[    2.382381] init: Starting service 'zygote'...
+[    2.382607] init: Starting service 'zygote_secondary'...
+[    2.382822] init: Starting service 'audioserver'...
+[    2.382993] init: Starting service 'cameraserver'...
+[    2.383153] init: Starting service 'drm'...
+[    2.383321] init: Starting service 'installd'...
+[    2.383482] init: Starting service 'keystore'...
+[    2.383651] init: Starting service 'mediacodec'...
+[    2.383809] init: Starting service 'mediadrm'...
+[    2.383973] init: Starting service 'mediaextractor'...
+[    2.384138] init: Starting service 'media'...
+[    2.384324] init: Starting service 'netd'...
+[    2.384487] init: Starting service 'ril-daemon'...
+[    2.384686] init: Starting service 'fingerprintd'...
+[    2.384851] init: Starting service 'gatekeeperd'...
+[    2.385112] init: couldn't write 1231 to /sys/fs/cgroup/stune/foreground/tasks: No such file or directory
+[    2.386359] binder: 1227:1227 transaction failed 29189, size 0-0
+[    2.386922] init: couldn't write 1235 to /sys/fs/cgroup/stune/foreground/tasks: No such file or directory
+[    2.431306] init: Starting service 'perfprofd'...
+[    2.433429] init: Service 'logd-reinit' (pid 1226) exited with status 0
+[    2.437284] init: write_file: Unable to open '/sys/class/android_usb/android0/enable': No such file or directory
+[    2.440021] init: write_file: Unable to open '/sys/class/android_usb/android0/idVendor': No such file or directory
+[    2.443337] init: write_file: Unable to open '/sys/class/android_usb/android0/idProduct': No such file or directory
+[    2.446084] init: write_file: Unable to open '/sys/class/android_usb/android0/functions': No such file or directory
+[    2.449937] init: write_file: Unable to open '/sys/class/android_usb/android0/enable': No such file or directory
+[    2.453762] init: write_file: Unable to open '/sys/class/android_usb/android0/enable': No such file or directory
+[    2.456773] init: write_file: Unable to open '/sys/class/android_usb/android0/idVendor': No such file or directory
+[    2.459910] init: write_file: Unable to open '/sys/class/android_usb/android0/idProduct': No such file or directory
+[    2.463124] init: write_file: Unable to open '/sys/class/android_usb/android0/functions': No such file or directory
+[    2.466066] init: write_file: Unable to open '/sys/class/android_usb/android0/enable': No such file or directory
+[    2.652695] init: avc:  denied  { set } for property=emu.uuid pid=1228 uid=0 gid=0 scontext=u:r:qemu_props:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0
+[    2.657002] init: sys_prop: permission denied uid:0  name:emu.uuid
+[    2.659165] init: Service 'qemu-props' (pid 1228) exited with status 0
+[    2.809419] init: Service 'goldfish-setup' (pid 1233) exited with status 0
+[    2.932254] init: Service 'goldfish-logcat' (pid 1232) exited with status 0
+[    3.106159] init: Starting service 'bootanim'...
+[    3.221328] init: Service 'bootanim' (pid 1310) exited with status 0
+[    3.387477] healthd: BatteryVoltagePath not found
+[    3.389421] healthd: BatteryTemperaturePath not found
+[    3.390728] healthd: BatteryCurrentNowPath not found
+[    3.396930] healthd: BatteryFullChargePath not found
+[    3.398508] healthd: BatteryCycleCountPath not found
+[    5.275261] warning: `main' uses 32-bit capabilities (legacy support in use)
+[    6.935250] healthd: battery l=50 v=0 t=0.0 h=2 st=2 chg=a
+[    9.649518] FAT-fs (vdd): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+[   63.388876] healthd: battery l=50 v=0 t=0.0 h=2 st=2 chg=a
+[  102.662992] type=1400 audit(1503222867.633:5): avc: denied { search } for pid=2296 comm=73657276696365203336 name="security" dev="vdc" ino=21126 scontext=u:r:adbd:s0 tcontext=u:object_r:security_file:s0 tclass=dir permissive=0
+[  112.364299] binder: 2397: binder_alloc_buf, no vma
+[  112.366298] binder: 1487:1550 transaction failed 29201, size 4-0
+[  112.372169] binder: send failed reply for transaction 22190 to 2397:2397
+[  115.541429] binder: undelivered transaction 23146
+[  123.389063] healthd: battery l=50 v=0 t=0.0 h=2 st=2 chg=a
+[  183.389031] healthd: battery l=50 v=0 t=0.0 h=2 st=2 chg=a
+[  243.390718] healthd: battery l=50 v=0 t=0.0 h=2 st=2 chg=a
+[  303.389728] healthd: battery l=50 v=0 t=0.0 h=2 st=2 chg=a
+[  305.348618] binder: release 2436:2436 transaction 23512 out, still active
+[  305.352905] binder: 1487:1777 transaction failed 29189, size 4-0
+[  305.354412] binder: send failed reply for transaction 23512, target dead
+[  363.389584] healthd: battery l=50 v=0 t=0.0 h=2 st=2 chg=a
